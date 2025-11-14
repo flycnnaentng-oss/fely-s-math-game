@@ -20,6 +20,7 @@ function generateQuestion() {
     else correctAnswer = num1 * num2;
 }
 
+
 // Check answer
 function checkAnswer() {
     let userAnswer = Number(document.getElementById("answer").value);
@@ -40,4 +41,5 @@ function checkAnswer() {
 
 
 // Load the first question
+
 generateQuestion();
